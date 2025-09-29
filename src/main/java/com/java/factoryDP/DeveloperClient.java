@@ -18,8 +18,13 @@ public class DeveloperClient {
 		System.out.println("Salary: " + employee1.Salary());
 		
 		
-		
+		//creating the object for interface
 	}
+	
+	//step1 : product interface
+	//step2 : concrete products
+	//step3 : factory
+	//step4 : client 
 	
 	
 
