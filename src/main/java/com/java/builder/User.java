@@ -11,10 +11,10 @@ public class User {
 		//intialize
 		this.userId=builder.userId;
 		this.userName=builder.userName;
-		this.emailId=builder.emailId;
-		
-		
+		this.emailId=builder.emailId;	
 	}
+	
+	
 
 	@Override
 	public String toString() {
@@ -47,6 +47,12 @@ public class User {
 			
 		}
 		
+		public static UserBuilder builder() {
+			return new UserBuilder();
+		}
+		
+		
+		
 	
 		public UserBuilder setUserId(String userId) {
 			this.userId = userId;
@@ -65,7 +71,9 @@ public class User {
 			User user = new User(this);
 			return user;
 		
-	}	
+	}
+
+	
 		
 		
 	}
