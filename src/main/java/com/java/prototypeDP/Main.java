@@ -19,8 +19,12 @@ public class Main {
 		try {
 			NetworkConnection networkConnection2  = (NetworkConnection) networkConnection.clone();
 			NetworkConnection networkConnection3  = (NetworkConnection) networkConnection.clone();
-			System.out.println(networkConnection2);
-			System.out.println(networkConnection3);
+			System.out.println(networkConnection); //obj1
+			networkConnection.getDomains().remove(0);
+			System.out.println(networkConnection); //obj1
+
+			System.out.println(networkConnection2);  //obj2
+			System.out.println(networkConnection3);  //obj3
 			} catch (CloneNotSupportedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
