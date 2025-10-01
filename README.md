@@ -46,5 +46,6 @@ Concerned with communication between objects and the delegation of responsibilit
 - Template Method
 - Visitor
 
+
 ---
 
