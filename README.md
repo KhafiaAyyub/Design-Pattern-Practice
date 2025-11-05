@@ -13,6 +13,7 @@ They help make code more **flexible, reusable, and maintainable**.
 
 ---
 
+
 ## 🏗 Categories of Design Patterns
 
 ### 1. **Creational Patterns**
